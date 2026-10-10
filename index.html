@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog de Tecnologia</title>
+</head>
+
+<body>
+
+    <header id="inicio">
+
+        <h1>Blog de Tecnologia</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#artigos">Artigos</a>
+            <a href="#inscricao">Inscrição</a>
+        </nav>
+
+    </header>
+
+    <main id="artigos">
+
+        <article>
+
+            <h2>Inteligência Artificial no dia a dia</h2>
+
+            <p>
+                A Inteligência Artificial está cada vez mais presente em nosso
+                cotidiano, auxiliando em tarefas como pesquisas, recomendações,
+                automações e análise de dados.
+            </p>
+
+            <img
+                src="https://images.unsplash.com/photo-1677442136019-21780ecad995"
+                alt="Representação de inteligência artificial"
+                width="400"
+            >
+
+        </article>
+
+
+        <article>
+
+            <h2>Desenvolvimento Web</h2>
+
+            <p>
+                O desenvolvimento web utiliza tecnologias como HTML, CSS e
+                JavaScript para criar páginas e aplicações acessíveis através
+                dos navegadores.
+            </p>
+
+            <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                alt="Computador exibindo código de programação"
+                width="400"
+            >
+
+        </article>
+
+    </main>
+
+
+    <aside id="inscricao">
+
+        <h2>Inscreva-se no blog</h2>
+
+        <form method="get">
+
+            <fieldset>
+
+                <legend>Formulário de inscrição</legend>
+
+
+                <div>
+
+                    <label for="nome">
+                        Nome:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        minlength="3"
+                        required
+                    >
+
+                </div>
+
+
+                <br>
+
+
+                <div>
+
+                    <label for="email">
+                        E-mail:
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                    >
+
+                </div>
+
+
+                <br>
+
+
+                <div>
+
+                    <label for="idade">
+                        Idade:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="idade"
+                        name="idade"
+                        min="18"
+                        max="120"
+                        required
+                    >
+
+                </div>
+
+
+                <br>
+
+
+                <div>
+
+                    <label for="assunto">
+                        Assunto de interesse:
+                    </label>
+
+                    <select
+                        id="assunto"
+                        name="assunto"
+                        required
+                    >
+
+                        <option value="">
+                            Selecione um assunto
+                        </option>
+
+                        <option value="html">
+                            HTML
+                        </option>
+
+                        <option value="css">
+                            CSS
+                        </option>
+
+                        <option value="javascript">
+                            JavaScript
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <br>
+
+
+                <div>
+
+                    <input
+                        type="checkbox"
+                        id="termos"
+                        name="termos"
+                        required
+                    >
+
+                    <label for="termos">
+                        Aceito os termos
+                    </label>
+
+                </div>
+
+
+                <br>
+
+
+                <button type="submit">
+                    Enviar inscrição
+                </button>
+
+            </fieldset>
+
+        </form>
+
+    </aside>
+
+
+    <footer>
+
+        <p>
+            © 2026 Blog de Tecnologia. Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
